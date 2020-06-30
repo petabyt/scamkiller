@@ -20,7 +20,7 @@ def rand_token(length):
 def request(token):
     print("Sending random token with length: " + str(len(token)))
 
-    req = requests.get(URL + token), verify=False) # no verification in case the server has a bad SSL certificate
+    req = requests.get(URL + token, verify=False) # no verification in case the server has a bad SSL certificate
 
 i = 0
 while True:
