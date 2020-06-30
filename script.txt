@@ -43,13 +43,12 @@ to a lesser-known Netherlands based host and changed the description of the
 video to a new port on the same domain. 
 I then returned by reporting the abusive website to the new host. They didn't respond.
 
-In an effort to try and slow down the efficiency of their systems, I wrote
-a script to generate fake requests and send them to these server. This
+In an effort to try and slow down the efficiency of the system, I wrote
+a script to generate fake requests and send them to the server. This
 will confuse the real and fake requests, therefore drastically slowing down the 
 breaking-into-accounts process.
 
-I found a few servers to spam, and proceeded to send hundreds, and sometimes thousands
-of fake requests to them.
+I proceeded to send hundreds, and sometimes thousands of fake requests to them.
 
 While this was running, I started other investigations.
 
@@ -71,6 +70,9 @@ The video could also be faked, but the connection is still strong.
 After searching more, I figured out it wasn't just one site, but many. There
 are even tutorials on Youtube showing you how to set it up, and showing
 me behind the scenes on how it works.
+
+I modified my script to change between multiple different
+websites, and started spamming again.
 
 Resources:
 https://twitter.com/JordyRBX/with_replies?lang=en
