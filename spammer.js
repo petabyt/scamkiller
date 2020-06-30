@@ -24,7 +24,7 @@ function randomString() {
 
 var requester;
 requester = function() {
-	timeout(2000, fetch(websites[site] + randomString())).then(result => {
+	timeout(10000, fetch(websites[site] + randomString())).then(result => {
 		console.log(i, result);
 		setTimeout(function() {
 			site++;
