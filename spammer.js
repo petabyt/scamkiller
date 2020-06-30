@@ -1,5 +1,9 @@
 var chars = "1234567890QWERTYUIOASDFGHJKLPZXCVBNM";
-var websites = ["https://rbxpro.xyz/?confirmation="];
+
+var websites = [
+	{url: "https://rbxpro.xyz/?confirmation=", timeouts: 0}
+];
+
 var site = 0;
 var i = 0;
 
@@ -13,6 +17,7 @@ function timeout(ms, promise) {
 	});
 }
 
+
 function randomString() {
 	var randomString = "";
 	for (var c = 0; c < 360; c++) {
@@ -22,22 +27,36 @@ function randomString() {
 	return randomString;
 }
 
+function nextSite() {
+	site++;
+	if (site == websites.length) {
+		site = 0;
+	}	
+}
+
 var requester;
 requester = function() {
-	timeout(10000, fetch(websites[site] + randomString())).then(result => {
-		console.log(i, result);
-		setTimeout(function() {
-			site++;
-			if (site == websites.length) {
-				site = 0;
-			}			
+	if (websites[site].timeouts > 5) {
+		nextSite();	
+	}
 
+	timeout(10000, fetch(websites[site].url + randomString())).then(result => {
+		console.log(i, result);
+		i++;
+		
+		setTimeout(function() {
+			nextSite();
 			requester();
 		}, 100);
-		i++;
 	}).catch(function(error) {
+		websites[site].timeouts++;
 		console.log("Timeout error");
+
+		setTimeout(function() {
+			nextSite();
+			requester();
+		}, 100);
 	});
-}
+};
 
 requester();
