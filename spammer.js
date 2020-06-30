@@ -1,7 +1,7 @@
 var chars = "1234567890QWERTYUIOASDFGHJKLPZXCVBNM";
 
 var websites = [
-	{url: "https://rbxpro.xyz/?confirmation=", timeouts: 0}
+	{url: "https://rbxpro.xyz/?confirmation=", timeouts: 0},
 	{url: "https://ixware.dev/l/CSJS/send-JSCS.php?t=", timeouts: 0}
 ];
 
@@ -38,7 +38,11 @@ function nextSite() {
 var requester;
 requester = function() {
 	if (websites[site].timeouts > 5) {
-		nextSite();	
+		if (site == websites.length) {
+          	console.log("All sites down");
+			return;
+		}	
+		site++;
 	}
 
 	timeout(10000, fetch(websites[site].url + randomString())).then(result => {
