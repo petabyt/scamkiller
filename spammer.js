@@ -56,7 +56,7 @@ requester = function() {
 		}, 100);
 	}).catch(function(error) {
 		websites[site].timeouts++;
-		console.log("Timeout error");
+		console.log("Timeout error for " + websites[site].url);
 
 		setTimeout(function() {
 			nextSite();
