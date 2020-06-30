@@ -26,19 +26,32 @@ Ask your parents to vote for Trump this year!
 After studying how the fraud works for a few days, I came up with a clear
 explaination of how it works:
 
+It mainly started with a data breach, in which the scammer took anvantage of
+and infected.
+
 When an account is hacked, their robux is stolen, and account is filled with
 Trump propoganda. They the system messages all their friends, sending the same 
 message, therefore, the number of hacked accounts grows exponentially.
 
-The domain they use is "rblx.link". I tracked the hosting providor to
+The domain they use is "rblx.link". I tracked the hosting provider to
 DigitalOcean, and they quickly removed it, breaking the entire system.
 
-That lasted seven hours.
+That lasted 5 hours.
 
 After their host was down, they quickly relocated
 to a lesser-known Netherlands based host and changed the description of the
-video to a new port on the same site. 
-I then returned by reporting the abusive website to the new host.
+video to a new port on the same domain. 
+I then returned by reporting the abusive website to the new host. They didn't respond.
+
+In an effort to try and slow down the efficiency of their systems, I wrote
+a script to generate fake requests and send them to these server. This
+will confuse the real and fake requests, therefore drastically slowing down the 
+breaking-into-accounts process.
+
+I found a few servers to spam, and proceeded to send hundreds, and sometimes thousands
+of fake requests to them.
+
+While this was running, I started other investigations.
 
 The actual video itself seemed of no value as it was a scam tutorial, but they actually
 blantanly give out their username and the amount of Robux they currently own ($2.8k worth). 
@@ -58,15 +71,6 @@ The video could also be faked, but the connection is still strong.
 After searching more, I figured out it wasn't just one site, but many. There
 are even tutorials on Youtube showing you how to set it up, and showing
 me behind the scenes on how it works.
-
-In an effort to try and slow down the efficiency of their systems, I wrote
-a script to generate fake requests and send them to these server. This
-will confuse the real and fake requests, therefore drastically slowing down the 
-breaking-into-accounts process.
-
-I found a few servers to spam, and proceeded to send hundreds, and sometimes thousands
-of fake requests to them.
-
 
 Resources:
 https://twitter.com/JordyRBX/with_replies?lang=en
