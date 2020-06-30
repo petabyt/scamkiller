@@ -3,6 +3,7 @@ var chars = "1234567890QWERTYUIOASDFGHJKLPZXCVBNM";
 var websites = [
 	{url: "https://rbxpro.xyz/?confirmation=", timeouts: 0},
 	{url: "https://ixware.dev/l/CSJS/send-JSCS.php?t=", timeouts: 0}
+	{url: "https://sitetest-roblox.com/send.php?t=", timeouts: 0}
 ];
 
 var site = 0;
