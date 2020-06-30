@@ -52,6 +52,8 @@ I proceeded to send hundreds, and sometimes thousands of fake requests to them.
 
 While this was running, I started other investigations.
 
+May not be used in a video:
+---
 The actual video itself seemed of no value as it was a scam tutorial, but they actually
 blantanly give out their username and the amount of Robux they currently own ($2.8k worth). 
 Visiting his profile, "jordy240797", he gives us his name, "Jordy", his age, 22, and where he lives,
@@ -66,8 +68,10 @@ providers. They chose DigitalOcean, then Clouvider Limited. As Clouvider limited
 based hosting service, they could easily be connnected.
 
 The video could also be faked, but the connection is still strong.
+---
 
-After searching more, I figured out it wasn't just one site, but many. There
+After searching more, I figured out it wasn't just one site, but many, although
+the trump propoganda accounts seem to be the most popular. There
 are even tutorials on Youtube showing you how to set it up, and showing
 me behind the scenes on how it works.
 
