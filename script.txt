@@ -91,7 +91,7 @@ websites, and started spamming again. At the time, this was very secret, and onl
 other person knew about it.
 
 
-- About Robux
+- About Robux (not related)
 The problem is, free Robux is every child's dream. They will do anything and
 everything to obtain it. 
 The people on the other end, the scammers, do everything
@@ -101,6 +101,13 @@ websites.
 
 And it works.
 
+
+- Other scams
+Roblox scams have been active for years. This particular one differs from the others,
+which offer free Robux, a digital currency used in Roblox. Instead of offering free things, it
+uses trust.
+As you know the person and they are your friend, you trust them. After all, it seems 
+like a harmless message, and running the Javascript can't do **that** much harm, right?
 
 
 - Conclusion
