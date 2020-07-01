@@ -1,3 +1,9 @@
+"INTERNET SCAMMERS" DOCUMENTARY
+
+- Opening title
+James 3.16: For where jealousy and selfish ambition exist, there will be disorder and every vile practice. 
+
+- Main Script
 On January 28th, 2020, I decided to visit the Roblox.com
 website, to check up on things a bit. I saw that I was sent a message
 by a Roblox friend, asking me a harmless question.
@@ -71,12 +77,27 @@ The video could also be faked, but the connection is still strong.
 ---
 
 After searching more, I figured out it wasn't just one site, but many, although
-the trump propoganda accounts seem to be the most popular. There
+the Trump propoganda accounts seem to be the most popular. Simply looking though
+Youtube videos show that many people have been setting up servers to steal accounts in
+the exact same way the Trump one was. There
 are even tutorials on Youtube showing you how to set it up, and showing
 me behind the scenes on how it works.
 
-I modified my script to change between multiple different
-websites, and started spamming again.
+I modified my script to be interchangable between multiple different
+websites, and started spamming again. At the time, this was very secret, and only 1
+other person knew about it.
+
+
+- About Robux
+The problem is, free Robux is every child's dream. They will do anything and
+everything to obtain it. The people on the other end, the scammers, do everything
+they possibly can to make their "Robux generators" look legit. This includes things like
+adding fake chatrooms and using the classic technobabble to trick people.
+And it works.
+
+
+
+- Conclusion
 
 Resources:
 https://twitter.com/JordyRBX/with_replies?lang=en
