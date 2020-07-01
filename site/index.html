@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GET Spammer</title>
+	</head>
+	<body>
+		<h1>GET Spammer</h1>
+		<p>Spam GET requests with random nonsense. Beware of using this, as it may be hard on some websites as they may be poorly configured against bad input.</p>
+
+		<h2>Tool</h2>
+		<p>Input the URL of the site like: https://example.com/?field= or https://example.com/?field={}&x=5, where {} is exchanged for the random data.</p>
+
+		<p>Sites to spam (separate with commas):</p>
+		<input id="sites" placeholder="https://example.com/?field=,https://example.com/?field{}&x=5"/>
+		
+		<p>Length of nonsense:</p>
+		<input type="number" id="length" value="100"/>
+		<p>Maximum requests:</p>
+		<input type="number" id="times" value="100"/>
+
+		<button id="start">Start</button>
+		<button id="stop">Stop</button>
+
+		<h3>Log</h3>
+		<div id="log"></div>
+
+		<script src="spammer.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
