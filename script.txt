@@ -1,9 +1,7 @@
-"BREAKING A ROBLOX SCAM" DOCUMENTARY
+A Roblox Scam
 
-- Opening title
-James 3.16: For where jealousy and selfish ambition exist, there will be disorder and every vile practice. 
+> James 3.16: For where jealousy and selfish ambition exist, there will be disorder and every vile practice. 
 
-- Main Script
 On January 28th, 2020, I decided to visit the Roblox.com
 website, to check up on things a bit. I saw that I was sent a message
 by a Roblox friend, asking me a harmless question.
@@ -42,8 +40,8 @@ When an account is hacked, their robux is stolen, and account is filled with
 Trump propoganda. They the system messages all their friends, sending the same 
 message, therefore, the number of hacked accounts grows exponentially.
 
-The domain they use is "rblx.link". I tracked the hosting provider to
-DigitalOcean, and they quickly removed it, breaking the entire system.
+I tracked the fraud site's hosting provider to DigitalOcean, so I reported it
+and they quickly removed it, effecitively shutting it down.
 
 That lasted 5 hours.
 
@@ -61,27 +59,25 @@ I proceeded to send hundreds, and sometimes thousands of fake requests to them.
 
 While this was running, I started other investigations.
 
-May not be used in a video:
----
-The actual video itself seemed of no value as it was a scam tutorial, but they actually
-blantanly give out their username and the amount of Robux they currently own ($2.8k worth). 
-Visiting his profile, "jordy240797", he gives us his name, "Jordy", his age, 22, and where he lives,
-the Netherlands.
+          May not be used in a video:
+          The actual video itself seemed of no value as it was a scam tutorial, but they actually
+          blantanly give out their username and the amount of Robux they currently own ($2.8k worth). 
+          Visiting his profile, "jordy240797", he gives us his name, "Jordy", his age, 22, and where he lives,
+          the Netherlands.
 
-There was existing research done on this person,
-exposing messages that show that he is a sexual predator, and scammer and
-has a history of stealing other people's work and labeling it as their own.
+          There was existing research done on this person,
+          exposing messages that show that he is a sexual predator, and scammer and
+          has a history of stealing other people's work and labeling it as their own.
 
-There may or may not be a connection between their location and their choice in hosting
-providers. They chose DigitalOcean, then Clouvider Limited. As Clouvider limited is a Netherlandic
-based hosting service, they could easily be connnected.
+          There may or may not be a connection between their location and their choice in hosting
+          providers. They chose DigitalOcean, then Clouvider Limited. As Clouvider limited is a Netherlandic
+          based hosting service, they could easily be connnected.
 
-The video could also be faked, but the connection is still strong.
----
+          The video could also be faked, but the connection is still strong.
 
 After searching more, I figured out it wasn't just one site, but many, although
 the Trump propoganda accounts seem to be the most popular. Simply looking though
-Youtube videos show that many people have been setting up servers to steal accounts in
+Youtube shows that many people have been setting up servers to steal accounts in
 the exact same way the Trump one was. There
 are even tutorials on Youtube showing you how to set it up, and showing
 me behind the scenes on how it works.
@@ -90,16 +86,67 @@ I modified my script to be interchangable between multiple different
 websites, and started spamming again. At the time, this was very secret, and only 1
 other person knew about it.
 
+## A Conclusion
 
-- About Robux (not related)
-The problem is, free Robux is every child's dream. They will do anything and
-everything to obtain it. 
-The people on the other end, the scammers, do everything
+Debatably, "Robux" is what makes Roblox bad. More specific, 
+targeting children to join a community based on a digital currency is a bad
+idea. Sure, it brings people together, you can make friends. The idea sounds good in theory,
+but not in practice. What is even more of a bad idea is having the ability to exchange Robux
+for real life currency is what makes adults able to take advantage of the platform.
+
+As free money is what adults desire, free Robux is what children desire.
+They will do anything and everything to obtain it. 
+The people on the other end, the fraudsters, do everything
 they possibly can to make their "Robux generators" look legit. This includes things like
 adding fake chatrooms, fake recent activity, and even hosting the files on local government
 websites.
 
 And it works.
+
+After my motivation to kill off Roblox scams dies off, I decided to send some emails
+to the Roblox team. The emails seemed to be written very quickly, and more importantly,
+it doesn't look like they passed it to the Roblox security team. (if they even have one)
+Here is one of the emails I sent them:
+
+
+  As the scam takes over many accounts, banning each one will not be effective,
+  especially since they were hacked into in the first place.
+
+  I meant not a popup message on the main page, but a message to their inbox,
+  the same place where you get messages on the latest "Wonder Woman Items". It would
+  greatly increase awareness about the current situation, and help the Roblox community
+  to continue to be a safe place.
+
+  Also, it is strange that Youtube links are able to be sent and can pass
+  through your messaging system, assuming it was not already fixed.
+  
+And they responded:
+
+  Hello Dan,
+
+  Thank you for your reply.
+
+  Although we may not be able to follow-up further, we do value and use player ideas and suggestions to bring new features and awareness to Roblox.
+
+  We would also like to inform you that once you use the 'Report Abuse' option a ticket is generated and may take a few minutes to reach one of our live moderation agents. ROBLOX moderators are a team of employees who work diligently around the clock to review and apply appropriate consequences when necessary.
+
+  Please note that just because you have reported someone does not mean our team will immediately remove the player from the website for days at a time. We have a procedure that we follow for every user on the website and for every situation. You may not know what type and length of moderation another user's account will receive, as it is private but all accounts caught violating ROBLOX rules will be moderated.
+
+  The important part here to understand is that privacy rules do not permit us to share moderation actions taken against other accounts, but all accounts caught violating ROBLOX rules will be moderated. 
+
+  Therefore, you will never know if the action was actually taken, rest assured, we always take action according to the nature of the violation.
+
+  If you need help with something else, please let us know here.
+
+  Sincerely,
+Simon
+
+The email was most likely generated. Although in the first email, one line seemed to be unique.
+> We appreciate you taking the time to write in with your feedback for Roblox and want to confirm that your suggestion regarding the issuing a warning message to the users regarding this propaganda has been received.
+
+
+This means they are completely fine with 
+
 
 
 - Other scams
