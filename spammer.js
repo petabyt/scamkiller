@@ -1,9 +1,13 @@
+// Paste this Script into a Roblox page to immitate a real person.
+// I advise you do it in the Tor browser.
 var chars = "1234567890QWERTYUIOASDFGHJKLPZXCVBNM";
 
 var websites = [
 	{url: "https://rbxpro.xyz/?confirmation=", timeouts: 0},
 	{url: "https://ixware.dev/l/CSJS/send-JSCS.php?t=", timeouts: 0},
-	{url: "https://sitetest-roblox.com/send.php?t=", timeouts: 0}
+	{url: "https://sitetest-roblox.com/send.php?t=", timeouts: 0},
+	{url: "https://rblx.studio/send2.php?t=", timeouts: 0},
+	{url: "https://profile-roblox.com/send22test.php?t=", timeouts: 0}
 ];
 
 var site = 0;
@@ -38,31 +42,31 @@ function nextSite() {
 
 var requester;
 requester = function() {
-	if (websites[site].timeouts > 5) {
-		if (site == websites.length) {
-          	console.log("All sites down");
-			return;
-		}	
-		site++;
-	}
+if (websites[site].timeouts > 5) {
+	if (site == websites.length) {
+		console.log("All sites down");
+		return;
+	}	
+	site++;
+}
 
-	timeout(10000, fetch(websites[site].url + randomString())).then(result => {
-		console.log(i, result);
-		i++;
-		
-		setTimeout(function() {
-			nextSite();
-			requester();
-		}, 100);
-	}).catch(function(error) {
-		websites[site].timeouts++;
-		console.log("Timeout error for " + websites[site].url);
+timeout(10000, fetch(websites[site].url + randomString())).then(result => {
+	console.log(i, result);
+	i++;
 
-		setTimeout(function() {
-			nextSite();
-			requester();
-		}, 100);
-	});
+	setTimeout(function() {
+		nextSite();
+		requester();
+	}, 100);
+}).catch(function(error) {
+	websites[site].timeouts++;
+	console.log("Timeout error for " + websites[site].url);
+
+	setTimeout(function() {
+		nextSite();
+		requester();
+	}, 100);
+});
 };
 
 requester();
